@@ -52,4 +52,11 @@ class MainActivity : AppCompatActivity() {
         timer.start()
     }
 
+    override fun onBackPressed() {
+        if (webMain != null && webMain.canGoBack())
+            webMain.goBack()
+        else
+            BackPressedHandler.onBackPressedKillProcess(this)
+    }
+
 }

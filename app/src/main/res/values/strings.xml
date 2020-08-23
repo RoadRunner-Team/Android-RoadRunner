@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">RoadRunner</string>
+    <string name="common_guide_finish">Tap \'back\' button in order to exit the app</string>
 </resources>
